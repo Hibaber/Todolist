@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+
+  color: black;
+  font-family: Lato, sans-seif;
+  margin-top: 40px;
+  background-color: #b49ef1;
+}
+
+h1 {
+  color: #1b1b32;
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.todolistApp {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.mainTodolist {
+
+  width: 600px;
+  min-height: 500px;
+  background-color: #edc8f1;
+  border: 1px solid #a39df0;
+  padding: 25px;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 26px;
+
+}
