@@ -4,34 +4,23 @@
   box-sizing: border-box;
 }
 
-html,
-body {
-
-  color: black;
-  font-family: Lato, sans-seif;
-  margin-top: 40px;
-  background-color: #b49ef1;
-}
-
 h1 {
   color: #1b1b32;
   font-size: 25px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif, sans-serif;
   margin: 20px 0;
   text-align: center;
 }
 
 .todolistApp {
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-
 }
 
 .mainTodolist {
-
   width: 600px;
   min-height: 500px;
   background-color: #edc8f1;
@@ -40,5 +29,25 @@ h1 {
   margin: 10px;
   justify-content: center;
   border-radius: 26px;
+}
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  color: black;
+  font-family: Lato, sans-seif;
+  margin-top: 40px;
+}
 
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

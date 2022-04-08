@@ -15,12 +15,12 @@ const TodoList = () => {
             const updatedTodos = [todo, ...todos];                  // poner la tarea nueva al principio y después el resto
             setTodos(updatedTodos);                                 // actualizamos el estado de las tareas con el nuevo
         }
-    }
+    };
 
     const deleteTodo = id => {
         const filteredTodos = todos.filter(todo => todo.id !== id)
         setTodos(filteredTodos)
-    }
+    };
 
     const completeTodo = id => {
         const completedTodos = todos.map(todo => {
@@ -30,7 +30,7 @@ const TodoList = () => {
             return todo;
         })
         setTodos(completedTodos)
-    }
+    };
 
     return (
         <>

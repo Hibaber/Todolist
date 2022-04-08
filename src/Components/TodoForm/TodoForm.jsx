@@ -11,7 +11,7 @@ const TodoForm = (props) => {
         setInput(e.target.value);
         console.log(e.target.value)
 
-    }
+    };
     const handleSubmit = e => {
 
         e.preventDefault();
@@ -23,7 +23,7 @@ const TodoForm = (props) => {
         }
 
         props.onSubmit(newTodo)
-    }
+    };
 
     return (
 
