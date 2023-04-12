@@ -3,9 +3,7 @@ import "../Todo/Todo.css"
 import { AiOutlineCloseCircle } from "react-icons/ai";
 
 const Todo = ({ id, text, completed, completeTodo, deleteTodo }) => {
-
     return (
-
         <div className={completed ? "todo-container completed" : "todo-container"}>
             <div
                 className="todo-text"
@@ -17,7 +15,6 @@ const Todo = ({ id, text, completed, completeTodo, deleteTodo }) => {
                 onClick={() => deleteTodo(id)}>
                 <AiOutlineCloseCircle className="todo-icon" />
             </div>
-
         </div>
     )
 }
