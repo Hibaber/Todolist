@@ -4,7 +4,7 @@ A basic to do list app to practice with React
 
 **Techonolgies used:**
 
-Created with React App, CSS, Ant Design Icons, UUID
+Created with React App, CSS, UUID
 
 **App run:**
 
